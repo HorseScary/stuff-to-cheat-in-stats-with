@@ -28,8 +28,11 @@ def sort(data):
 def quartile(data):
 
     if len(data)%2 == 1:
-        q2 = data[int((len(data)/2)-.5)]
-
+        a = int((len(data)/2)-.5)
+        b = int((len(data)/4)-.5)
+        q2 = data[a]
+        q1 = data[b]
+        q3 = data[a+b]
     
     else:
         a = int(len(data)/2)

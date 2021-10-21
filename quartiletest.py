@@ -1,6 +1,6 @@
 from sorting import sort, quartile
 
 
-sortdat = [0, 0, 0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 4, 4, 4, 4, 4, 5, 5, 6, 7, 7, 7, 7, 8, 9, 9, 9]
+sortdat = [55, 56, 58, 59, 59, 59, 60, 62, 63, 64, 64, 65, 65, 65, 77]
 
 print(quartile(sortdat))
