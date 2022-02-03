@@ -47,14 +47,14 @@ def deviouslyDirtyDecks():
     elif card1[0] == card2[0] and card3[0]: #3 of the same number
         return(f"{cards}[SAME NUMBERx3]\nYou won $25!")
     
-    elif card1[1] == card2[1] and card3[1]: #3 of the same suite
+    elif card1[1] == card2[1] and card1[1] == card3[1]: #3 of the same suite
         return(f"{cards}[SAME SUITEx3]\nYou won $15!")
 
     elif card1[0] == card2[0] or card1[0] == card3[0] or card2[0] == card3[0]: #2 of the same number
         return(f"{cards}[SAME NUMBERx2]\nYou won $10!")
     
     elif card1[1] == card2[1] or card1[1] == card3[1] or card2[1] == card3[1]:
-        return(f"{cards}[SAME SUITEx2]\nYoy won $5!")
+        return(f"{cards}[SAME SUITEx2]\nYou won $5!")
 
     else:
         return(f"{cards}[NOTHING]\nYou won nothing :(")
