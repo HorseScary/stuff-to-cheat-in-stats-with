@@ -4,3 +4,4 @@
 .vscode/settings.json
 /.vscode
 /testing.py
+.DS_Store
