@@ -24,4 +24,11 @@ def interval(n, x):
 
     return(f"90:{lastthing(conf90)}\n95:{lastthing(conf95)}\n98:{lastthing(conf98)}\n99:{lastthing(conf99)}")
 
-print(interval(1029,494))
+
+def finite(N, n):
+    return(math.sqrt((N-n)/(N-1)))
+
+print(finite(1600, 80))
+
+#2.518
+#2.779
